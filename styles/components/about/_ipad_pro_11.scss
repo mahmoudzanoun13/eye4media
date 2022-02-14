@@ -1,0 +1,155 @@
+//MEDIA QUERY MANAGER
+
+.container {
+
+  //[429-835]-->834
+  
+  @media (max-width: 835px) {
+
+    overflow: hidden;
+    height: 289vh;
+    
+    //header_start
+    #header {
+      height: 47vh !important;
+      nav {
+        p {
+          display: none;
+        }
+        .logo_image {
+          margin-left: 80px;
+        }
+        .hamburger {
+          margin-right: 80px;
+        }
+      }
+      .content {
+        .col-2 {
+          .titles {
+            margin-left: -254px;
+            margin-top: 50px;
+            h1 {
+              font-size: 25px;
+              width: 300px;
+            }
+            p {
+              width: 250px;
+            }
+          }
+          img {
+            width: 50vw;
+            height: 545px;
+            top: 40px;
+            right: -135px;
+          }
+        }
+      }
+    }
+    //header_end
+
+    //section_one_start
+    .section-1 {
+      .col-2 {
+        margin-top: 35px;
+        img {
+          margin-right: 473px;
+          width: 200px;
+          height: 220px;
+        }
+        .titles {
+          p {
+            width: 315px;
+          }
+        }
+      }
+      .col-4 {
+        width: 97%;
+      }
+    }
+    //section_one_end
+
+    //section_mockup
+    .hidden {
+      display: none;
+    }
+
+    //section_two_start
+    .section-2 {
+      h2 {
+        margin-left: 0;
+        text-align: center;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      .col-2 {
+        justify-content: center;
+        margin-left: 0;
+        div {
+          margin-left: 0;
+          flex-direction: column;
+          img, .card {
+            width: 250px;
+            height: 250px;
+          }
+          .card {
+            .social-icons {
+              flex-direction: revert;
+            }
+          }
+        }
+        .carachter_two {
+          margin-top: 50px;
+        }
+      }
+    }
+    //section_two_end
+
+    //titles
+    .c {
+      left: 50%;
+      transform: translate(-50%);
+      h2, p {
+        text-align: center;
+      }
+    }
+
+    //section_three_start
+    .section-3 {
+      height: 30vh;
+      .hidden, .col-2 .hidden {
+        display: none;
+      }
+    }
+    //section_three_end
+
+    //footer_start
+    footer {
+      height: 35vh;
+      position: relative;
+      .hidden {
+        display: none;
+      }
+      .logo_icon {
+        margin-left: 0;
+        position: absolute;
+        left: 12.5%;
+      }
+      .contacts {
+        position: absolute;
+        left: 50%;
+        margin-left: 0;
+      }
+    }
+    //footer_end
+
+    //copyright
+    .copyright {
+      height: 4vh;
+      top: -70px;
+    }
+
+  }
+
+}
+

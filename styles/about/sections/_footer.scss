@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #E63F75;
+  height: 60vh;
+  .logo_icon {
+    margin-left: 250px;
+    width: 150px;
+    height: 100px;
+  }
+  .contacts {
+    color: #FFD6EB;
+    margin-left: 90px;
+    p {
+      padding: 2px 0;
+    }
+    .phones {
+      margin-top: 15px;
+    }
+  }
+  .footer_mockup {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 95px;
+    margin-right: -15px;
+  }
+  .filtered {
+    filter: brightness(100%) sepia(140%) hue-rotate(-65deg) saturate(1300%) contrast(0.9);
+  }
+}
+

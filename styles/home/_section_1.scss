@@ -1,0 +1,47 @@
+.section-1_home {
+  background: radial-gradient(closest-corner at 1140px 50px, #642C8C 1%, #1C0A48 100%);
+  display: flex;
+  .colomn_mockup_image {
+    z-index: 2;
+    margin-top: 200px;
+    margin-left: -90px;
+  }
+  .titles_home {
+    margin-top: 350px;
+    margin-left: 120px;
+    width: 464px;
+    z-index: 2;
+    h2 {
+      font-size: 45px;
+      width: 550px;
+      color: #FFFFFF;
+      font-weight: 500;
+    }
+    p {
+      color: #FFFFFF;
+      line-height: 2;
+      padding-top: 20px;
+    }
+    .more_content {
+      display: flex;
+      align-items: center;
+      p {
+        font-weight: 500;
+        padding-right: 40px;
+      }
+      a {
+        padding-top: 25px;
+        img {
+          filter: brightness(0) invert(1);
+        }
+      }
+    }
+  }
+  .full_mockup_image_right {
+    width: 1450px;
+    position: relative;
+    right: 475px;
+    top: 360px;
+  }
+}
+

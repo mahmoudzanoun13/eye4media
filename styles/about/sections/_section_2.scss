@@ -1,0 +1,56 @@
+.section-2 {
+  margin-left: -25px;
+  h2 {
+    margin-left: 142px;
+    margin-top: 120px;
+    font-weight: 500;
+  }
+  .col-2 {
+    display: flex;
+    margin-left: 142px;
+    margin-top: 30px;
+    div {
+      display: flex;
+      position: relative;
+      z-index: 2;
+      .img_one {
+        width: 200px;
+        height: 200px;
+        background: #F7F7F7;
+      }
+      .card {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: #1D144D;
+        h3 {
+          color: #FFFCFF;
+          margin-left: 25px;
+          padding-bottom: 5px;
+        }
+        p {
+          color: #EBE8F1;
+          margin-left: 25px;
+          padding-bottom: 5px;
+        }
+        .social-icons {
+          margin-left: 25px;
+          img {
+            width: 25px;
+            height: 25px;
+            color: #FBFAFC;
+          }
+        }
+      }
+      .card_2 {
+        background: #E63F75;
+      }
+    }
+    .carachter_two {
+      margin-left: 30px;
+    }
+  }
+}
+
