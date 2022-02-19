@@ -72,9 +72,6 @@
 
     //section_three_start
     .section-3_home {
-      h2 {
-        margin-left: 85px;
-      }
       .col-2_home_title {
         left: 85px;
       }
@@ -120,7 +117,7 @@
         transform: rotate(5deg);
       }
       .testimonials_text {
-        left: 20px;
+        left: 15px;
         h2 {
           font-size: 20px;
           padding-top: 50px;
@@ -450,9 +447,11 @@
     .section-3_home {
       height: 400vh;
       .testimonials_text {
+        width: 100%;
         border-radius: 5px;
         h2 {
-          margin-left: 122px;
+          position: relative;
+          left: 11.2%;
         }
       }
       .body_mockup {
@@ -499,16 +498,6 @@
       }
     }
     //section_one_end
-
-    //section_three_start
-    .section-3_home {
-      .testimonials_text {
-        h2 {
-          margin-left: 112px;
-        }
-      }
-    }
-    //section_three_end
 
   }
 
@@ -657,15 +646,10 @@
         height: 800px;
       }
       .testimonials_text {
-        width: 100%;
         border-radius: 0;
         left: 0;
         h2, .wrapper, span, p {
           margin-left: 35px;
-        }
-        h2 {
-          left: -27.5%;
-          margin-left: 100px;
         }
       }
       .body_mockup, .wrapper img {
@@ -734,11 +718,6 @@
       height: 430vh;
       h2 {
         margin-left: 0;
-      }
-      .testimonials_text {
-        h2 {
-          margin-left: 80px;
-        }
       }
       .bg_row_section_mockup {
         top: -2180px;

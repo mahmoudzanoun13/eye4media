@@ -311,6 +311,7 @@ header .col-2_home .titles_header_home h2 span {
   color: #251C5A;
   padding-top: 80px;
   font-size: 40px;
+  position: initial;
 }
 
 .section-3_home .testimonials_text .wrapper {
@@ -630,9 +631,6 @@ header .col-2_home .titles_header_home h2 span {
   .home_container .section-2_home h2 {
     left: 41.7%;
   }
-  .home_container .section-3_home h2 {
-    margin-left: 85px;
-  }
   .home_container .section-3_home .col-2_home_title {
     left: 85px;
   }
@@ -660,7 +658,7 @@ header .col-2_home .titles_header_home h2 span {
             transform: rotate(5deg);
   }
   .home_container .section-3_home .testimonials_text {
-    left: 20px;
+    left: 15px;
   }
   .home_container .section-3_home .testimonials_text h2 {
     font-size: 20px;
@@ -926,10 +924,12 @@ header .col-2_home .titles_header_home h2 span {
     height: 400vh;
   }
   .home_container .section-3_home .testimonials_text {
+    width: 100%;
     border-radius: 5px;
   }
   .home_container .section-3_home .testimonials_text h2 {
-    margin-left: 122px;
+    position: relative;
+    left: 11.2%;
   }
   .home_container .section-3_home .body_mockup {
     display: none;
@@ -966,9 +966,6 @@ header .col-2_home .titles_header_home h2 span {
 @media (max-width: 687px) {
   .home_container .section-1_home .colomn_mockup_image {
     margin-left: -20px;
-  }
-  .home_container .section-3_home .testimonials_text h2 {
-    margin-left: 112px;
   }
 }
 
@@ -1104,16 +1101,11 @@ header .col-2_home .titles_header_home h2 span {
     height: 800px;
   }
   .home_container .section-3_home .testimonials_text {
-    width: 100%;
     border-radius: 0;
     left: 0;
   }
   .home_container .section-3_home .testimonials_text h2, .home_container .section-3_home .testimonials_text .wrapper, .home_container .section-3_home .testimonials_text span, .home_container .section-3_home .testimonials_text p {
     margin-left: 35px;
-  }
-  .home_container .section-3_home .testimonials_text h2 {
-    left: -27.5%;
-    margin-left: 100px;
   }
   .home_container .section-3_home .body_mockup, .home_container .section-3_home .wrapper img {
     display: none;
@@ -1177,9 +1169,6 @@ header .col-2_home .titles_header_home h2 span {
   }
   .home_container .section-3_home h2 {
     margin-left: 0;
-  }
-  .home_container .section-3_home .testimonials_text h2 {
-    margin-left: 80px;
   }
   .home_container .section-3_home .bg_row_section_mockup {
     top: -2180px;

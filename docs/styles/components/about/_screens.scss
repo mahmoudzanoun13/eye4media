@@ -32,6 +32,12 @@
     }
     //section_one_end
 
+    //section_title_start
+    .l-50 {
+      left: 50%;
+    }
+    //section_title_end
+
     //section_three_start
     .section-3 {
       .col-2 {
@@ -46,16 +52,6 @@
       }
     }
     //section_three_end
-
-  }
-
-  @media (max-width: 1172px) {
-    
-    //section_title_start
-    .l-50 {
-      left: 50%;
-    }
-    //section_title_end
 
   }
 
@@ -370,7 +366,7 @@
       flex-direction: column-reverse;
       justify-content: space-around;
       margin: 0 30px;
-      top: -60px;
+      top: -61px;
       p {
         font-size: 13px;
         margin-left: 0;

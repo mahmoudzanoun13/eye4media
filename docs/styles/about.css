@@ -361,6 +361,9 @@ footer .filtered {
   .container .section-1 .col-2 img {
     margin-right: 500px;
   }
+  .container .l-50 {
+    left: 50%;
+  }
   .container .section-3 .col-2 .masks_image {
     width: 500px;
     height: 257px;
@@ -368,12 +371,6 @@ footer .filtered {
   }
   .container .section-3 .col-2 .titles {
     margin-left: -50px;
-  }
-}
-
-@media (max-width: 1172px) {
-  .container .l-50 {
-    left: 50%;
   }
 }
 
@@ -604,7 +601,7 @@ footer .filtered {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin: 0 30px;
-    top: -60px;
+    top: -61px;
   }
   .container .copyright p {
     font-size: 13px;
