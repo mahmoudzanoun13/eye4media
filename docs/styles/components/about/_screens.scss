@@ -1,6 +1,20 @@
 //MEDIA QUERY MANAGER
 
 .container {
+
+  @media (max-width: 1536px) {
+
+    //section_three_start
+    .section-3 {
+      .col-2 {
+        .masks_image {
+          top: 60px;
+        }
+      }
+    }
+    //section_three_end
+
+  }
   
   @media (max-width: 1320px) {
 
@@ -44,7 +58,7 @@
         .masks_image {
           width: 500px;
           height: 257px;
-          top: 157px;
+          top: 160px;
         }
         .titles {
           margin-left: -50px;
