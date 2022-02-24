@@ -929,7 +929,7 @@ header .col-2_home .titles_header_home h2 span {
   }
   .home_container .section-3_home .testimonials_text h2 {
     position: relative;
-    left: 11.2%;
+    left: 13.2%;
   }
   .home_container .section-3_home .body_mockup {
     display: none;
@@ -1262,11 +1262,20 @@ header .col-2_home .titles_header_home h2 span {
   .home_container header {
     height: 135vh !important;
   }
+  .home_container .section-1_home .colomn_mockup_image {
+    margin-left: -40px;
+  }
+  .home_container .section-2_home .col-2_home .row-4_home {
+    width: 65%;
+  }
   .home_container .section-2_home .services_content .row-3 p {
     font-size: 11px;
   }
   .home_container .section-3_home {
     height: 450vh;
+  }
+  .home_container .section-3_home .testimonials_text h2, .home_container .section-3_home .testimonials_text .wrapper, .home_container .section-3_home .testimonials_text span, .home_container .section-3_home .testimonials_text p {
+    margin-left: 25px;
   }
   .home_container .section-3_home h2 {
     -webkit-transform: translate(-15.5%);

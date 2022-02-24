@@ -451,7 +451,7 @@
         border-radius: 5px;
         h2 {
           position: relative;
-          left: 11.2%;
+          left: 13.2%;
         }
       }
       .body_mockup {
@@ -833,8 +833,21 @@
     }
     //header_end
 
+    //section_one_start
+    .section-1_home {
+      .colomn_mockup_image {
+        margin-left: -40px;
+      }
+    }
+    //section_one_end
+
     //section_two_start
     .section-2_home {
+      .col-2_home {
+        .row-4_home {
+          width: 65%;
+        }
+      }
       .services_content {
         .row-3 {
           p {
@@ -848,6 +861,11 @@
     //section_three_start
     .section-3_home {
       height: 450vh;
+      .testimonials_text {
+        h2, .wrapper, span, p {
+          margin-left: 25px;
+        }
+      }
       h2 {
         transform: translate(-15.5%);
       }
