@@ -937,8 +937,8 @@ header .col-2_home .titles_header_home h2 span {
   .home_container .section-3_home h2 {
     margin-left: 30px;
     left: 50%;
-    -webkit-transform: translate(-12.5%);
-            transform: translate(-12.5%);
+    -webkit-transform: translate(-14.5%);
+            transform: translate(-14.5%);
   }
   .home_container .section-3_home .col-3 {
     -webkit-box-orient: vertical;
@@ -1224,7 +1224,7 @@ header .col-2_home .titles_header_home h2 span {
   .home_container .footer .copyright .social-icons {
     margin-left: 0;
     position: relative;
-    left: 43%;
+    left: 50%;
     -webkit-transform: translate(-100%);
             transform: translate(-100%);
   }
@@ -1247,14 +1247,42 @@ header .col-2_home .titles_header_home h2 span {
     margin-top: -450px;
   }
   .home_container .section-2_home h2 {
-    -webkit-transform: translate(-15.5%);
-            transform: translate(-15.5%);
+    -webkit-transform: translate(-19.5%);
+            transform: translate(-19.5%);
   }
   .home_container .section-3_home {
     height: 330vh;
   }
   .home_container .footer {
     height: 50vh;
+  }
+}
+
+@media (max-width: 376px) {
+  .home_container header {
+    height: 135vh !important;
+  }
+  .home_container .section-2_home .services_content .row-3 p {
+    font-size: 11px;
+  }
+  .home_container .section-3_home {
+    height: 450vh;
+  }
+  .home_container .section-3_home h2 {
+    -webkit-transform: translate(-15.5%);
+            transform: translate(-15.5%);
+  }
+  .home_container .section-3_home .col-2_home_title h1 {
+    margin-right: 272px;
+  }
+  .home_container .footer {
+    height: 65vh;
+  }
+  .home_container .footer .copyright {
+    height: 8vh;
+  }
+  .home_container .footer .copyright .social-icons {
+    left: 59%;
   }
 }
 
