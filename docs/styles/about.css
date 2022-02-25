@@ -348,6 +348,9 @@ footer .filtered {
 }
 
 @media (max-width: 1536px) {
+  .container {
+    overflow: hidden;
+  }
   .container .section-3 .col-2 .masks_image {
     top: 60px;
   }
@@ -476,7 +479,7 @@ footer .filtered {
     width: 315px;
   }
   .container .section-2 h2 {
-    margin-left: 0;
+    margin-left: 28px;
     text-align: center;
   }
   .container .section-2 .col-2 {
@@ -487,6 +490,7 @@ footer .filtered {
   }
   .container .section-2 .col-2 div {
     margin-left: 0;
+    margin-right: -28px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -515,7 +519,7 @@ footer .filtered {
     height: 50px;
     background: #E63F75;
     position: absolute;
-    bottom: -50px;
+    bottom: -47px;
   }
   .container .copyright::before {
     left: -50px;
@@ -532,8 +536,14 @@ footer .filtered {
   .container .titles {
     width: 410px;
   }
+  .container .titles p {
+    font-size: 14px;
+  }
   .container .titles .n-r {
     white-space: nowrap;
+  }
+  .container .c {
+    margin-top: 80px;
   }
 }
 
@@ -619,8 +629,9 @@ footer .filtered {
     margin-top: 8px;
   }
   .container .copyright::before, .container .copyright::after {
-    height: 60px;
+    height: 95px;
     bottom: -60px;
+    z-index: -1;
   }
 }
 
@@ -653,7 +664,25 @@ footer .filtered {
 
 @media (max-width: 455px) {
   .container #header .content .col-2 .titles {
-    left: 120%;
+    left: 130%;
+  }
+}
+
+@media (max-width: 376px) {
+  .container {
+    overflow: hidden;
+  }
+  .container #header .content .col-2 .titles {
+    left: 140%;
+  }
+  .container .titles {
+    width: 350px;
+  }
+  .container .titles p {
+    font-size: 13px;
+  }
+  .container .section-3 {
+    height: 55vh;
   }
 }
 /*# sourceMappingURL=about.css.map */

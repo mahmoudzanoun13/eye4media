@@ -4,6 +4,8 @@
 
   @media (max-width: 1536px) {
 
+    overflow: hidden;
+
     //section_three_start
     .section-3 {
       .col-2 {
@@ -99,6 +101,7 @@
 
     //section_three_start
     .section-3 {
+      // height: 40vh;
       .col-2 {
         .hidden {
           display: none;
@@ -229,7 +232,7 @@
     //section_two_start
     .section-2 {
       h2 {
-        margin-left: 0;
+        margin-left: 28px;
         text-align: center;
       }
       .col-2 {
@@ -237,6 +240,7 @@
         margin-left: 0;
         div {
           margin-left: 0;
+          margin-right: -28px;
           flex-direction: column;
           img, .card {
             width: 250px;
@@ -265,7 +269,7 @@
         height: 50px;
         background: #E63F75;
         position: absolute;
-        bottom: -50px;
+        bottom: -47px;
       }
       &::before {
         left: -50px;
@@ -294,9 +298,15 @@
     //section_title_start
     .titles {
       width: 410px;
+      p {
+        font-size: 14px;
+      }
       .n-r {
         white-space: nowrap;
       }
+    }
+    .c {
+      margin-top: 80px;
     }
     //section_title_end
 
@@ -391,8 +401,9 @@
         margin-top: 8px;
       }
       &::before, &::after {
-        height: 60px;
+        height: 95px;
         bottom: -60px;
+        z-index: -1;
       }
     }
 
@@ -476,12 +487,46 @@
       .content {
         .col-2 {
           .titles {
-            left: 120%;
+            left: 130%;
           }
         }
       }
     }
     //header_end
+
+  }
+
+  //Iphone SE 2nd generation
+  @media (max-width: 376px) {
+
+    overflow: hidden;
+
+    //header_start
+    #header {
+      .content {
+        .col-2 {
+          .titles {
+            left: 140%;
+          }
+        }
+      }
+    }
+    //header_end
+
+    //section_title_start
+    .titles {
+      width: 350px;
+      p {
+        font-size: 13px;
+      }
+    }
+    //section_title_end
+
+    //section_three_start
+    .section-3 {
+      height: 55vh;
+    }
+    //section_three_end
 
   }
 
