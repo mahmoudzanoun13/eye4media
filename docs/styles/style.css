@@ -262,7 +262,7 @@ header .col-2_home .titles_header_home h2 span {
 
 .section-2_home .services_content .row-3 .col-2 img {
   width: 50px;
-  height: 50px;
+  height: auto;
 }
 
 .section-2_home .services_content .row-3 .col-2 h3 {
