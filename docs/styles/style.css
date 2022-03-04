@@ -425,7 +425,7 @@ header .col-2_home .titles_header_home h2 span {
 
 .section-3_home .col-3 .project_card {
   width: 329px;
-  height: 550px;
+  height: 549px;
   background: #F72764;
   margin-right: 20px;
   border-radius: 35px;
@@ -859,7 +859,7 @@ header .col-2_home .titles_header_home h2 span {
   }
   .home_container .section-3_home .col-3 .project_card {
     width: 229px;
-    height: 400px;
+    height: 399.5px;
   }
   .home_container .section-3_home .col-3 .project_card .content {
     margin-left: 30px;
