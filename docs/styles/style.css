@@ -304,6 +304,7 @@ header .col-2_home .titles_header_home h2 span {
 .section-3_home .testimonials-container .testimonials_text {
   background: #DDDCE4;
   width: 70%;
+  height: 383px;
   position: absolute;
   top: 320px;
   left: 90px;
@@ -683,6 +684,7 @@ header .col-2_home .titles_header_home h2 span {
             transform: rotate(5deg);
   }
   .home_container .section-3_home .testimonials_text {
+    height: 225px;
     left: 15px;
   }
   .home_container .section-3_home .testimonials_text h2 {
@@ -692,7 +694,7 @@ header .col-2_home .titles_header_home h2 span {
     left: -30.5%;
   }
   .home_container .section-3_home .testimonials_text .wrapper {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .home_container .section-3_home .testimonials_text .wrapper h3 {
     font-size: 13px;
@@ -701,11 +703,10 @@ header .col-2_home .titles_header_home h2 span {
     font-size: 10px;
   }
   .home_container .section-3_home .testimonials_text span p {
-    margin-top: -15px !important;
+    margin-top: -5px !important;
   }
   .home_container .section-3_home .testimonials_text p {
     padding-bottom: 30px;
-    padding-top: 0;
     width: 330px;
   }
   .home_container .section-3_home .testimonials_text h2, .home_container .section-3_home .testimonials_text .wrapper, .home_container .section-3_home .testimonials_text span, .home_container .section-3_home .testimonials_text p {
@@ -715,6 +716,10 @@ header .col-2_home .titles_header_home h2 span {
     width: 100px;
     height: 32px;
     left: 170px;
+  }
+  .home_container .section-3_home .slide-controller {
+    top: -805px;
+    left: 250px;
   }
   .home_container .section-3_home .body_mockup {
     width: 300px;
@@ -1126,8 +1131,10 @@ header .col-2_home .titles_header_home h2 span {
   .home_container .section-3_home .testimonials_text h2, .home_container .section-3_home .testimonials_text .wrapper, .home_container .section-3_home .testimonials_text span, .home_container .section-3_home .testimonials_text p {
     margin-left: 35px;
   }
-  .home_container .section-3_home .body_mockup, .home_container .section-3_home .wrapper img {
-    display: none;
+  .home_container .section-3_home .slide-controller {
+    top: -405px;
+    left: 200px;
+    z-index: 3;
   }
   .home_container .section-3_home h2 {
     top: -200px;

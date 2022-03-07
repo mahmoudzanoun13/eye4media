@@ -37,12 +37,6 @@ function updateSlidePosition() {
   }
 
   slides[slidePosition].classList.add('active');
-
-  if (slidePosition === 1 || slidePosition === 2) {
-    image.classList.add('body_mockup_s');
-  } else {
-    image.classList.remove('body_mockup_s');
-  }
 }
 
 function moveToNextSlide() {
