@@ -301,63 +301,48 @@ header .col-2_home .titles_header_home h2 span {
   z-index: 1;
 }
 
-.section-3_home .testimonials_text {
+.section-3_home .testimonials-container .testimonials_text {
   background: #DDDCE4;
   width: 70%;
   position: absolute;
   top: 320px;
   left: 90px;
+  display: none;
 }
 
-.section-3_home .testimonials_text h2 {
+.section-3_home .testimonials-container .testimonials_text h2 {
   color: #251C5A;
   padding-top: 80px;
   font-size: 40px;
   position: initial;
 }
 
-.section-3_home .testimonials_text .wrapper {
+.section-3_home .testimonials-container .testimonials_text .wrapper {
   margin-top: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.section-3_home .testimonials_text .wrapper h3 {
+.section-3_home .testimonials-container .testimonials_text .wrapper h3 {
   color: #251C5A;
 }
 
-.section-3_home .testimonials_text .wrapper img {
-  width: 10px;
-  height: 18px;
-}
-
-.section-3_home .testimonials_text .wrapper .left_arrow {
-  margin-left: 50px;
-  margin-right: 10px;
-}
-
-.section-3_home .testimonials_text span p {
+.section-3_home .testimonials-container .testimonials_text span p {
   color: #CD97AE;
   padding: 0;
   padding-top: 5px;
 }
 
-.section-3_home .testimonials_text p {
-  padding-bottom: 80px;
+.section-3_home .testimonials-container .testimonials_text p {
+  padding-bottom: 60px;
   padding-top: 20px;
   width: 530px;
   color: #8E8D92;
 }
 
-.section-3_home .testimonials_text h2, .section-3_home .testimonials_text .wrapper, .section-3_home .testimonials_text span, .section-3_home .testimonials_text p {
+.section-3_home .testimonials-container .testimonials_text h2, .section-3_home .testimonials-container .testimonials_text .wrapper, .section-3_home .testimonials-container .testimonials_text span, .section-3_home .testimonials-container .testimonials_text p {
   margin-left: 115px;
 }
 
-.section-3_home .testimonials_text::before {
+.section-3_home .testimonials-container .testimonials_text::before {
   content: '';
   background: #DDDCE4;
   width: 200px;
@@ -368,12 +353,41 @@ header .col-2_home .titles_header_home h2 span {
   z-index: 2;
 }
 
+.section-3_home .testimonials-container .slide-controller {
+  position: relative;
+  top: -1025px;
+  left: 420px;
+  z-index: 1;
+}
+
+.section-3_home .testimonials-container .slide-controller .left_arrow {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.section-3_home .testimonials-container .slide-controller .right_arrow {
+  cursor: pointer;
+}
+
+.section-3_home .testimonials-container .active {
+  display: block !important;
+}
+
+.section-3_home .testimonials-container .hidden {
+  display: none;
+}
+
 .section-3_home .body_mockup {
   width: 517px;
   height: 570px;
   position: absolute;
   top: 133px;
   right: 100px;
+}
+
+.section-3_home .body_mockup_s {
+  width: 498px !important;
+  height: auto !important;
 }
 
 .section-3_home h2 {

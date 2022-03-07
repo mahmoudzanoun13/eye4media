@@ -11,59 +11,71 @@
     top: 130px;
     z-index: 1;
   }
-  .testimonials_text {
-    background: #DDDCE4;
-    width: 70%;
-    position: absolute;
-    top: 320px;
-    left: 90px;
-    h2 {
-      color: #251C5A;
-      padding-top: 80px;
-      font-size: 40px;
-      position: initial;
-    }
-    .wrapper {
-      margin-top: 30px;
-      display: flex;
-      align-items: center;
-      h3 {
-        color: #251C5A;
-      }
-      img {
-        width: 10px;
-        height: 18px;
-      }
-      .left_arrow {
-        margin-left: 50px;
-        margin-right: 10px;
-      }
-    }
-    span {
-      p {
-        color: #CD97AE;
-        padding: 0;
-        padding-top: 5px;
-      }
-    }
-    p {
-      padding-bottom: 80px;
-      padding-top: 20px;
-      width: 530px;
-      color: #8E8D92;
-    }
-    h2, .wrapper, span, p {
-      margin-left: 115px;
-    }
-    &::before {
-      content: '';
+  .testimonials-container {
+    .testimonials_text {
       background: #DDDCE4;
-      width: 200px;
-      height: 21px;
+      width: 70%;
       position: absolute;
-      left: 330px;
-      top: -1px;
-      z-index: 2;
+      top: 320px;
+      left: 90px;
+      display: none;
+      h2 {
+        color: #251C5A;
+        padding-top: 80px;
+        font-size: 40px;
+        position: initial;
+      }
+      .wrapper {
+        margin-top: 30px;
+        h3 {
+          color: #251C5A;
+        }
+      }
+      span {
+        p {
+          color: #CD97AE;
+          padding: 0;
+          padding-top: 5px;
+        }
+      }
+      p {
+        padding-bottom: 60px;
+        padding-top: 20px;
+        width: 530px;
+        color: #8E8D92;
+      }
+      h2, .wrapper, span, p {
+        margin-left: 115px;
+      }
+      &::before {
+        content: '';
+        background: #DDDCE4;
+        width: 200px;
+        height: 21px;
+        position: absolute;
+        left: 330px;
+        top: -1px;
+        z-index: 2;
+      }
+    }
+    .slide-controller {
+      position: relative;
+      top: -1025px;
+      left: 420px;
+      z-index: 1;
+      .left_arrow {
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      .right_arrow {
+        cursor: pointer;
+      }
+    }
+    .active {
+      display: block !important;
+    }
+    .hidden {
+      display: none;
     }
   }
   .body_mockup {
@@ -72,6 +84,10 @@
     position: absolute;
     top: 133px;
     right: 100px;
+  }
+  .body_mockup_s {
+    width: 498px !important;
+    height: auto !important;
   }
   h2 {
     color: #FFFFFF;

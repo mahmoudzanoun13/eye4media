@@ -13,3 +13,52 @@ const navSlide = () => {
 }
 
 navSlide();
+
+
+let slidePosition = 0;
+const slides = document.getElementsByClassName('testimonials_text');
+const totalSlides = slides.length;
+const rightArrow = document.querySelector('.right_arrow');
+const leftArrow = document.querySelector('.left_arrow');
+const image = document.getElementsByClassName('body_mockup')[0];
+
+rightArrow.addEventListener('click', () => {
+  moveToNextSlide();
+})
+
+leftArrow.addEventListener('click', () => {
+  moveToPrevSlide();
+})
+
+function updateSlidePosition() {
+  for (let slide of slides) {
+    slide.classList.remove('active');
+    slide.classList.add('hidden');
+  }
+
+  slides[slidePosition].classList.add('active');
+
+  if (slidePosition === 1 || slidePosition === 2) {
+    image.classList.add('body_mockup_s');
+  } else {
+    image.classList.remove('body_mockup_s');
+  }
+}
+
+function moveToNextSlide() {
+  if (slidePosition === totalSlides - 1) {
+    slidePosition = 0;
+  } else {
+    slidePosition++;
+  }
+  updateSlidePosition();
+}
+
+function moveToPrevSlide() {
+  if (slidePosition === 0) {
+    slidePosition = totalSlides - 1;
+  } else {
+    slidePosition--;
+  }
+  updateSlidePosition();
+}
