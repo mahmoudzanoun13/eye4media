@@ -361,8 +361,8 @@
           height: 400px;
         }
         .project_card {
-          width: 229px;
-          height: 399.5px;
+          width: 240px;
+          height: 400px;
           .content {
             margin-left: 30px;
             img {
@@ -381,16 +381,6 @@
                 height: 15px;
               }
             }
-          }
-        }
-        .card_front {
-          img:nth-child(1) {
-            margin-right: 20px;
-          }
-        }
-        .card_back {
-          div:nth-child(1) {
-            margin-right: 41px;
           }
         }
       }
@@ -677,7 +667,7 @@
         z-index: 9;
       }
       .col-3 {
-        margin-top: 250px;
+        margin-top: 300px;
       }
       .bg_row_section_mockup {
         top: -2150px;
@@ -716,17 +706,24 @@
     //section_three_start
     .section-3_home {
       .col-3 {
-        .card_front, .card_back {
-          flex-direction: column;
-          align-items: center;
-        }
-        .card_front img, .card_back .project_card {
-          margin-left: 31px;
-          margin-bottom: 50px;
-        }
-        .card_front {
+        flex-direction: column;
+        align-items: center;
+        .card_back {
+          .card {
+            margin-bottom: 20px;
+          }
           .card-2 {
-            margin-left: 20px;
+            margin-top: 100px;
+            transition: 0s;
+          }
+          .c-2 {
+            margin-top: 524px;
+            transition: 0s;
+          }
+        }
+        .tu {
+          &:hover {
+            transform: translateY(-500px);
           }
         }
       }

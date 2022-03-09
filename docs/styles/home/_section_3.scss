@@ -100,28 +100,26 @@
   .col-3 {
     position: relative;
     top: -400px;
+    display: flex;
+    justify-content: center;
     z-index: 10;
-    .card_front, .card_back {
-      display: flex;
-      justify-content: center;
-    }
     .card_back {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%);
-      top: 0;
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-100px);
+        .card {
+          opacity: 0;
+        }
+        .project_card {
+          z-index: 1;
+        }
+      }
     }
     .card {
       width: 350px;
       height: 550px;
       padding-right: 20px;
       transition: 0.5s;
-      z-index: 9;
-      &:hover {
-        cursor: pointer;
-        transform: translateY(-200px);
-        opacity: 0;
-      }
     }
     .project_card {
       width: 329px;
@@ -129,6 +127,9 @@
       background: #F72764;
       margin-right: 20px;
       border-radius: 35px;
+      position: absolute;
+      top: 0px;
+      z-index: -1;
       .content {
         margin-left: 60px;
         img {
@@ -162,7 +163,7 @@
           }
         }
       }
-      transition: 0.5s;
+      transition: 0.3s;
       &:hover {
         cursor: pointer;
       }
